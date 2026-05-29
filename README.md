@@ -17,13 +17,12 @@ An end-to-end data analysis project exploring food safety trends across Chicago 
 ```
 chicago-food-inspections/
 ├── data/
-│   ├── raw/                  # Original dataset from Chicago Data Portal
-│   └── processed/            # Cleaned and aggregated data
+│   ├── README.md                                 # URL to download original data with instructions for obtaining cleaned data
 ├── notebooks/
-│   ├── 01_cleaning.ipynb     # Data cleaning and preparation
-│   ├── 02_eda.ipynb          # Exploratory visualizations
-│   └── 03_analysis.ipynb     # Final analysis and time-series plots
-├── visuals/                  # Exported figures and interactive HTML plots
+│   ├── cleaning.ipynb                            # Data cleaning and preparation
+│   ├── exploratory_visualizations.ipynb          # Exploratory visualizations
+│   └── Written Report.pdf                        # Final analysis and time-series plots
+├── visuals/                                      # Exported figures and interactive HTML plots
 └── README.md
 ```
 
